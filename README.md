@@ -8,9 +8,9 @@ Collection of app UIs, under `GeltraxGT/App_UI`.
 
 ## What we are working on
 
-**We will be working on the School_UI here.**
+**We will be working on the School_App_UI here.**
 
-School app UIs go in `apps/school-ui/` as they are built.
+School_App_UI lives in `apps/School_App_UI/`.
 
 ## Skills — workspace-local only
 
