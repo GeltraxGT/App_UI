@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+.DS_Store
+# Workspace-local skills are tooling, not repo content (see SKILLS.md)
+.agents/skills/*
+!.agents/skills/README.md
+.agents/experts/

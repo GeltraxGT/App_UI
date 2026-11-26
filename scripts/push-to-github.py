@@ -42,7 +42,7 @@ def main():
     entries = []
     tracked = git("ls-files").strip().splitlines()
     for path in tracked:
-        if path.startswith(".git"):
+        if path == ".git" or path.startswith(".git/"):
             continue
         content = subprocess.check_output(["git", "-C", SRC, "show", f":{path}"])
         try:
